@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Shop</title>
-    <link rel="stylesheet" href="style.css">
-      <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </head>
@@ -13,7 +15,7 @@
     <div class="container">
         <div class="nav">
             <p class="info">Coffee</p>
-            <ul data-aos="fade-down">
+            <ul data-aos="fade-down" >
                 <li>home</li>
                 <li>menu</li>
                 <li>about</li>
@@ -24,22 +26,103 @@
                 <img src= "cf.png"  alt="">
             </div>
             <div class="info-content">
-                <p class="title-1">Coffee shop</p>
-                <p class="title-2" data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine">good for morning.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos doloribus, mollitia quia velit eveniet adipisci, omnis explicabo deleniti nemo voluptatem
+                <p class="title-1" data-aos="fade-right">Coffee shop</p>
+                <p class="title-2" data-aos="fade-up-right"> good for morning.</p>
+                <p > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos doloribus, mollitia quia velit eveniet adipisci, omnis explicabo deleniti nemo voluptatem
                     asperiores, est vero. Veritatis ab laboriosam cumque, doloremque debitis aliquam?           
                 </p>
-                <button class="order">Order Now</button>
+                <button data-aos="fade-down" class="order">Order Now</button>
             </div>
+        </div>
+        <div class="about">
+            <div class="title-box">
+                <p class="title-about-0" data-aos="fade-down">ABOUT US</p>
+                <p class="title-about-1" data-aos="fade-right">Serving Since 2000</p>
+            </div>
+            <div class="box">
+                
+            <div class="story">
+                <p class="st1" data-aos="fade-down-right">Our Story</p>
+                <p class="st-1">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</p>
+                <p class="st-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi blanditiis deserunt eos nobis officia provident 
+                    suscipit et nostrum, incidunt aliquam minima dicta! Excepturi magni reprehenderit perspiciatis nesciunt sapiente soluta officiis. 
+                </p>
+                <button class="contact">Contact us</button>
+            </div>
+            <div class="about-img">
+                <img src="icon cf.png" alt="">
+            </div>
+            <div class="abouts">
+                <p class="st1" data-aos="fade-up-left">About us</p>
+                <p class="about-1">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam.
+                     Ea et erat ut sed diam sea ipsum est dolor</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/"target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.google.com/gmail/about/" target="_blank"class="fa fa-google"></a>
+                    <a href="https://www.linkedin.com/login" target="_blank"class="fa fa-linkedin"></a>
+                    <a href="https://github.com/" target="_blank" class="fa fa-github"></a>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
     <style>
-       
+       .about{
+        align-items: center;
+        justify-content: center;
+        margin-top: 160px;
+        height: 700px;
+        width: auto;
+        background-color: #302727;
+        padding: 20px;
+       }
+       .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 70px;
+        padding: 10px 40px;
+       }
+
+       .st1{
+        color:  #ffe602;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+       }
+
+       .story .st-1{
+        color: #b28f8f;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        font-weight: 300;
+       }
+       .story .st-2{
+        color: #fff;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        font-weight: 600;
+       }
+       .about-1{
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 15px;
+       }
 
     </style>
 
+
+
+
+
+
+
+
 </body>
+<script>
+      AOS.init();
+</script>
 </html>
 <!-- col-lg-3 col-md-6 mb-5 -->
